@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;400&display=swap');
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: 'Prompt', sans-serif;
+  background-color:#eeeeee;
+  overflow: scroll;
+}
+.content_body{
+  background-color: rgb(223, 255, 216);
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+.bg-con{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.app {
+  display: flex;
+  position: relative;
+}
+.menu-bars {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.sub-menu-bars {
+  text-decoration: none;
+  color: #000000;
+}
+::-webkit-scrollbar {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
